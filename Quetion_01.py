@@ -1,5 +1,12 @@
-"""01.Add two numbers."""
-a=int(input("Enter a number"))
-b=int(input("Enter a number"))
+'''01.Print largest and smallest values out of two.'''
 
-print(f"The sum is {a+b}")
+a = int(input("Enter the number:"))
+b = int(input("Enter the number:"))
+
+if a>b:
+    print("largest =", a,"smallest =" ,b)
+    # print(f"largest = {a},smallest = {b}")
+elif b>a:
+    print(f"largest = {a},smallest = {b}")
+else:
+    print("both number are same")

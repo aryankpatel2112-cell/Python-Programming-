@@ -1,5 +1,22 @@
-'''02.Subtract two numbers.'''
-a=int(input("Enter a number"))
-b=int(input("Enter a number"))
+'''02.Print largest and smallest values out of three.'''
+a = int(input("Enter the number:"))
+b = int(input("Enter the number:"))
+c = int(input("Enter the number:"))
 
-print(f"The subtraction is {a-b}")
+if a==b==c:
+    print("All numbers are same.")
+else:
+    if a>b and a>c:
+        print(f"largest = {a}")
+    elif a<b and b>c:
+        print(f"largest = {b}")
+    else :
+        print(f"largest = {c}")
+
+    if a>b and c>b:
+        print(f"smallest = {b}")
+    elif a<b and a<c:
+        print(f"smallest = {a}")
+    else :
+        print(f"smallest = {c}")
+    

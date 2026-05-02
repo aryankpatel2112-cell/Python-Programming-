@@ -1,8 +1,8 @@
-'''05.Add, multiply, subtract and divide two numbers.'''
-a=int(input("Enter a number"))
-b=int(input("Enter a number"))
+'''05.Accept age of a person. If age is less than 18, print 
+minor otherwise Major.'''
 
-print(f"The sum is {a+b}")
-print(f"The subtraction is {a-b}")
-print(f"The multipiycation is {a*b}")
-print(f"The divistion is {a/b}")
+a=int(input("Enter your age."))
+if a>=18:
+    print("major")
+else:
+    print("minor")    

@@ -1,4 +1,3 @@
-'''09.Convert Rs. into dollars where 1 $ = 48 Rs.'''
-ruppy=int(input("Enter money into Dollars:"))
-dollars = ruppy / 48
-print(F"Dollars={ruppy}$")
+'''09.Print absolute value of a given number.'''
+n = float(input("Enter a number: "))
+print(f"Absolute value is: {abs(n)}")

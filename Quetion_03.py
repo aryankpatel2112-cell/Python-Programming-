@@ -1,5 +1,8 @@
-'''03.Multiply two numbers.'''
-a=int(input("Enter a number"))
-b=int(input("Enter a number"))
+'''03.Check whether a given number is odd or even.'''
 
-print(f"The multipiycation is {a*b}")
+a=int(input("Enter the number:"))
+if a%2!=0:
+    print(F"{a} is odd number")
+else:
+    print(F"{a} is even number")
+    

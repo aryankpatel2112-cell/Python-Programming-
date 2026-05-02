@@ -1,6 +1,13 @@
-'''Convert dollars into pound where 1 $ = 48 Rs.
-And 1 pound = 70 Rs'''
-dollars = int(input("Enter amount in dollars:"))
-rupees = dollars*48
-pound = rupees/70
-print(f"Rs. = {rupees},pound = {pound}")
+l = float(input("Enter length of rectangle"))
+b = float(input("Enter breadth of rectangle"))
+
+a=l*b
+p=2*(l+b)
+
+if a>p:
+    print("Area is greater then perameter")
+else:
+    print("Area is less then perameter")
+print(a)
+print(p)
+
